@@ -1,7 +1,7 @@
 const sinon = require('sinon');
 const assert = require('assert');
 
-const moduleToTest = 0;   // change me
+const moduleToTest = 6;   // change me
 
 const myModule = require(`./my-module-${moduleToTest}`);
 
