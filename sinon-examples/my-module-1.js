@@ -5,7 +5,7 @@ const foo = () => {
 }
 
 const bar = () => {
-  foo();
+  foo();      // doesn't matter if you make this "this.foo()"...
 }
 
 module.exports = {
